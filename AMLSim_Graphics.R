@@ -228,6 +228,9 @@ plot(G_3,
      edge.color=wesanderson::wes_palettes$BottleRocket2[4],
      edge.width = 3)
 
+
+EG <- c()
+
 #layouts <- grep("^layout_", ls("package:igraph"), value=TRUE)[-1] 
 
 #Remove layouts that do not apply to our graph.
